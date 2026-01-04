@@ -6,7 +6,7 @@ class FruitQuiz:
 
      self.fruits={'apple':'red',
                  'orange':'orange',
-                 'watermelon':'green/red',
+                 'watermelon':'green',
                  'banana':'yellow',}
 
     def quiz(self):
@@ -28,4 +28,5 @@ class FruitQuiz:
 
 print ("Welcome to the fruit quiz ")
 fq = FruitQuiz()
+
 fq.quiz()
